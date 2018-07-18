@@ -9,5 +9,17 @@ function globalFunction(){
 
     global = 'this is changed global'
 
-    console.log(global)
+    console.log(global);
+
+    function localFunction(){
+        var inner = 'this is inner';
+
+        console.log('visit global/local/inner va')
+        console.log(global)
+        console.log(local)
+        console.log(inner)
+    }
+    localFunction()
 }
+
+globalFunction();
