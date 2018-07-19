@@ -1,13 +1,14 @@
-var pet = {
-    words:'...',
-    speak:function(say){
-        console.log(say+' '+this.words)
+var home = {
+    liked:'dota2',
+    say:function(member){
+        console.log(member + 'likes' + this.liked)
     }
 }
-//pet.speak('speak')
 
-var dog = {
-    words:'wangwangwang'
+var ydp = {
+    liked:'pubg'
 }
 
-pet.speak.call(dog,'jiao')
+home.say.call(ydp,'ydp');
+console.log(home)
+console.log(ydp)
