@@ -13,4 +13,4 @@ function Dog(words){
 var dog = new Dog('wang')
 
 dog.speak()
-console.log(dog)
+console.log(dog) 

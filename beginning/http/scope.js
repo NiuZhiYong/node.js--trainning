@@ -23,3 +23,4 @@ function globalFunction(){
 }
 
 globalFunction();
+
